@@ -30,7 +30,7 @@ if(nivel === 'normal'){
         if(tempo<0){
             clearInterval(cronometro)
             clearInterval(criaMosca)
-            window.location.href = "winner_game.html"
+            window.location.href = "game_winner.html"
         }else{
             document.getElementById("cronometro").innerHTML = tempo
         }
@@ -45,7 +45,7 @@ if(nivel === 'normal'){
 
         if(vidas>3){
 
-            window.location.href = "fim_de_jogo.html"
+            window.location.href = "game_over.html"
 
         }else{
             document.getElementById("v" + vidas).src= "imagens/coracao_vazio.png"
